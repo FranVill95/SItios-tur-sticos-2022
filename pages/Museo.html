@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Style.css">
+    <title>Sitios turísticos de El Salvador</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="../img/esa2.png" alt="logo_ESA" class="logo" width="48px" height="48px">
+        <ul class="nav-links">
+            <li class="active"><a href="../pages/Museo.html">Museo Marte</a></li>
+            <li><a href="../pages/Lago.html">Lago de Coatepeque</a></li>
+            <li><a href="../pages/Ruinas.html">Parque Arqueológico Tazumal</a></li>
+            <li><a href="../pages/Rutaflo.html">Ruta de las Flores</a></li>
+            <li><a href="../pages/Playa.html">Playa Costa del Sol</a></li>
+            <li><a href="../pages/Montecristo.html">Parque Nacional Montecristo</a></li>
+        </ul>
+        <img src="../img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>El Salvador: "El Pulgarcito de América"</h1>
+            <div class="line"></div>
+            <h2>Conoce las infinidades de opciones que ofrece este hermoso país</h2>
+            <a href="https://www.youtube.com/watch?v=np15C5kuGlk&t=212s" class="ctn" target="_blank">Más info</a>
+        </div>
+    </header>
+
+    <!-- Events  -->
+    <section class="events">
+        <div class="title">
+            <h1>Arte</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="../img/expo.webp" alt="" width="470" height="375">
+                <h4>Exposiciones</h4>
+                <p>Desde su apertura en 2003 el Museo MARTE exhibe una muestra  de arte salvadoreño con obras de su colección, de colecciones privadas y préstamos de artistas. Esto lo hace a través de exposiciones semipermanentes que actualiza cada cinco años para ofrecer nuevas perspectivas y recorridos de la producción de arte salvadoreño adaptadas al contexto social.</p>
+                <a href="https://www.museomarte.org/exposiciones" class="ctn" target="_blank">Más info</a>
+            </div>
+            <div class="col">
+                <img src="../img/Temática.webp" alt="" width="470" height="375">
+                <h4>Recorridos Temáticos</h4>
+                <p>Lo que vemos pasa por nuestro filtro y se convierte en nuestro punto de vista personal. Ese filtro es una suma de lo que nos han enseñado, del lugar de donde venimos o de nuestras experiencias de vida. Cada quien interpreta la vida y el mundo de una forma diferente. Aquí unimos visiones particulares para ofrecerte un relato que nos parece interesante.</p>
+                <a href="https://www.museomarte.org/recorridos-tematicos" class="ctn" target="_blank">Más info</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+         <h1>Cuartos de artistas</h1>
+         <div class="line"></div>
+         <p>Nuestros artistas han retratado personajes, situaciones y paisajes del país a lo largo de la historia. 
+            Ver el conjunto de su trabajo nos permite entender sus motivaciones, sus lenguajes, sus evoluciones, sus cambios  y sus maneras particulares de ver la realidad.</p>
+         <a href="https://www.museomarte.org/cuartos-de-artista" class="ctn" target="_blank">Más info</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Disciplinas artísticas</h1>
+                <div class="line"></div>
+                <p>En el museo se busca abrir espacios para todas las disciplinas artísticas. La música y su dialogo con las otras disciplinas crea una experiencia multisensorial para el público. </p>
+                <a href="https://www.museomarte.org/ecfrasis" class="ctn" target="_blank">Más info</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/13QdRv-Mk5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p><strong>Santa Tecla, El Salvador | Tel: 3456 - 8967 | Email: francisco.e.villalobos@gmail.com</strong></p>
+        <p><strong>Copyright © 2022 Francisco Villalobos - Kodigo FSJ</strong></p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+ 
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')   
+        })
+     </script>
+
+</body>
+</html>

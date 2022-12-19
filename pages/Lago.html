@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Style.css">
+    <title>Lago de Coatepeque</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="../img/esa2.png" alt="logo_ESA" class="logo" width="48px" height="48px">
+        <ul class="nav-links">
+            <li class="active"><a href="../pages/Museo.html">Museo Marte</a></li>
+            <li><a href="../pages/Lago.html">Lago de Coatepeque</a></li>
+            <li><a href="../pages/Ruinas.html">Parque Arqueológico Tazumal</a></li>
+            <li><a href="../pages/Rutaflo.html">Ruta de las Flores</a></li>
+            <li><a href="../pages/Playa.html">Playa Costa del Sol</a></li>
+            <li><a href="../pages/Montecristo.html">Parque Nacional Montecristo</a></li>
+        
+        </ul>
+        <img src="../img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>El Salvador: "El Pulgarcito de América"</h1>
+            <div class="line"></div>
+            <h2>Conoce las infinidades de opciones que ofrece este hermoso país</h2>
+            <a href="https://www.youtube.com/watch?v=np15C5kuGlk&t=212s" class="ctn" target="_blank">Más info</a>
+        </div>
+    </header>
+
+    <!-- Events  -->
+    <section class="events">
+        <div class="title">
+            <h1>Actividades Acuáticas</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="../img/12c.jpg" alt="" width="330" height="230" >
+                <h4>Jet Ski</h4>
+                <p>ven y comparte con tus amigos  de una experiencia inolvidable disfrutando de un paseo en moto acuática y así hacer fluir tu adrenalina  en el Jetski, mientras te deleitas de un hermoso paisaje natural y un clima excepcional.</p>
+                <a href="https://www.youtube.com/watch?v=u8ILJT_-L70" class="ctn" target="_blank">Más info</a>
+            </div>
+            <div class="col">
+                <img src="../img/buceo2.jpg" alt="" width="330" height="230">
+                <h4>buceo</h4>
+                <p>puedes realizar buceo, disfrutando de la biodiversidad acuática que las profundidades del lago de Coatepeque te ofrece, tu puedes vivir esta increíble experiencia ya que existe una escuela de buceo llamada: waterquest la cual te ofrece esta inolvidable aventura.</p>
+                <a href="https://www.youtube.com/watch?v=9rNcksSJqvE" class="ctn" target="_blank">Más info</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore-l">
+        <div class="explore-content">
+         <h1>Datos curiosos sobre el Lago</h1>
+         <div class="line"></div>
+         <p>- El Lago Coatepeque en el 2013 participio en la octava maravilla del mundo donde obtuvo el segundo lugar, siendo así uno de los destinos preferidos por turistas de diversos países que lo han visitado.<br></p>
+         <p>- El topónimo “Coatepeque” significa “Cerro de Culebras” en lenguaje náhuatl. En la cuenca viven más de 20,000 personas, más un promedio de 5,000 turistas mensuales que visitan el lago.<br></p>
+         <p>- El lago de Coatepeque es de origen volcánico y está situado a 18 km al sur de la ciudad de Santa Ana. Tiene una altitud de 745 metros sobre el nivel del mar y una superficie de 25.3 km cuadrados. Además, su profundidad de 115 m.</p>
+         <a href="https://youtu.be/4q70dijOjTA" class="ctn">Más info</a>
+        </div>
+     </section>
+ 
+     <section class="tours">
+         <div class="row">
+             <div class="col content-col">
+                 <h1>Experiencia Única</h1>
+                 <div class="line"></div>
+                 <p>Sin duda, vale pena hacer una parada en Lago Coatepeque si visitas El Salvador, una experiencia única en este fantástico tesoro natural que te ofrece una infinidad de opciones para poder disfrutar con la familia y amigos. </p>
+                 <a href="#" class="ctn">Más info</a>
+             </div>
+             <div class="col image-col">
+                 <div class="image-gallery">
+                     <img src="../img/11c.jpg" alt="">
+                     <img src="../img/10.jpg" alt="">
+                     <img src="../img/13c.webp" alt="">
+                     <img src="../img/7c.jpg" alt="">
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <section class="footer">
+        <p><strong>Santa Tecla, El Salvador | Tel: 3456 - 8967 | Email: francisco.e.villalobos@gmail.com</strong></p>
+        <p><strong>Copyright © 2022 Francisco Villalobos - Kodigo FSJ</strong></p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+ 
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')   
+        })
+     </script>
+
+</body>
+</html>

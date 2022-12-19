@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Style.css">
+    <title>Ruta de las Flores</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="../img/esa2.png" alt="logo_ESA" class="logo" width="48px" height="48px">
+        <ul class="nav-links">
+            <li class="active"><a href="../pages/Museo.html">Museo Marte</a></li>
+            <li><a href="../pages/Lago.html">Lago de Coatepeque</a></li>
+            <li><a href="../pages/Ruinas.html">Parque Arqueológico Tazumal</a></li>
+            <li><a href="../pages/Rutaflo.html">Ruta de las Flores</a></li>
+            <li><a href="../pages/Playa.html">Playa Costa del Sol</a></li>
+            <li><a href="../pages/Montecristo.html">Parque Nacional Montecristo</a></li>
+        
+        </ul>
+        <img src="../img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>El Salvador: "El Pulgarcito de América"</h1>
+            <div class="line"></div>
+            <h2>Conoce las infinidades de opciones que ofrece este hermoso país</h2>
+            <a href="https://www.youtube.com/watch?v=np15C5kuGlk&t=212s" class="ctn" target="_blank">Más info</a>
+        </div>
+    </header>
+
+    <!-- Events  -->
+    <section class="events">
+        <div class="title">
+            <h1>Tours y Actividades</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="../img/5r.jpg" alt="" width="330" height="230" >
+                <h4>Tour Ruta de las Flores</h4>
+                <p>Uno de los destinos turísticos más populares y bellos de El Salvador. Hogar del mejor café del mundo, artesanía encantadora y muy rica en cultura local.</p>
+                <a href="https://salvadoreantours.com/es/destination/ruta-de-las-flores-el-salvador/" class="ctn" target="_blank">Reservar ya</a>
+            </div>
+            <div class="col">
+                <img src="../img/buggy.jpg" alt="" width="330" height="230">
+                <h4>Tour Buggies - Aventura</h4>
+                <p>¿Listos para experimentar adrenalina pura?¡Toma el Tour de Aventura Buggies Apaneca y descubre una experiencia repleta de emociones alredor plantacions de café, lagunas y la naturaleza de Ruta de las Flores!</p>
+                <a href="https://salvadoreantours.com/es/destination/ruta-de-las-flores-el-salvador/" class="ctn" target="_blank">Reservar ya</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore-f">
+        <div class="explore-content">
+         <h1>Disfruta de una experiencia inolvidable </h1>
+         <div class="line"></div>
+         <p>el recorrido de la Ruta de las Flores es un destino que lo tiene todo. Desde cascadas hasta arsenales volcánicos, desde antiguas iglesias coloniales hasta el laberinto más grande de América Central. Sin duda una experiencia que no te puedes perder.<br></p>
+         <a href="https://www.youtube.com/watch?v=Vu39HemMqp8" class="ctn">Más info</a>
+        </div>
+     </section>
+ 
+     <section class="tours">
+         <div class="row">
+             <div class="col content-col">
+                 <h1>Belleza en su máximo esplendor</h1>
+                 <div class="line"></div>
+                 <p>Una experiencia diferente llena de historia y cultura, en donde te podrás relajar junto a tu familia y amigos.</p>
+             </div>
+             <div class="col image-col">
+                 <div class="image-gallery">
+                     <img src="../img/3r.jpg" alt="">
+                     <img src="../img/4r.jpg" alt="">
+                     <img src="../img/pueblo-r.jpg" alt="">
+                     <img src="../img/ruta-f.jpg" alt="">
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <section class="footer">
+        <p><strong>Santa Tecla, El Salvador | Tel: 3456 - 8967 | Email: francisco.e.villalobos@gmail.com</strong></p>
+        <p><strong>Copyright © 2022 Francisco Villalobos - Kodigo FSJ</strong></p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+ 
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')   
+        })
+     </script>
+
+</body>
+</html>
